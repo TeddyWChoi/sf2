@@ -1,0 +1,725 @@
+.seemore-btn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    /* width:100%;
+    max-width: 192px; */
+    height: 60px;
+    /* margin:50px auto; */
+    z-index: 1;
+    background: linear-gradient(180deg, #af8e3b 0%, #5c4711 100%);
+
+    box-shadow: inset 0px 1px 3px rgb(255 255 255 / 50%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: max-content;
+    margin-right: 7px;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+.seemore-btn:hover {
+    transform: scale(0.95);
+    filter: saturate(50%);
+}
+.seemore-btn2 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.title-wrapper {
+    position: relative;
+    width: 100%;
+    top: 140px;
+    /* max-width:330px; */
+    /* height:104px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper .title-bg {
+    object-fit: contain;
+}
+
+.title-wrapper span {
+    color: #a0a0a0;
+    margin-top: -60px;
+    letter-spacing: 0.5em;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+.title-wrapper .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    font-size: 44px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
+#sf2_download .top-btn-wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 80px;
+    z-index: 200;
+}
+
+#sf2_download .top-btn-wrapper .top-btn-img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#sf2_download .top-btn-wrapper:hover .top-btn-img {
+    transform: scale(0.9);
+}
+
+#sf2_download {
+    height: 100%;
+    width: 100%;
+}
+
+#sf2_download .sf2_download_main {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sf2_download .sf2_download_main .sf2_download_main_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_logo {
+    margin-bottom: 30px;
+    margin-top: 120px;
+    max-width: 240px;
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_downloadBtn_wrapper {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sf2_download
+    .sf2_download_main
+    .sf2_download_main_content
+    .sf2_download_main_content_downloadBtn_wrapper
+    .sf2_download_main_content_downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    width: 100%;
+    height: 70px;
+    background: transparent linear-gradient(180deg, #4a89b8 0%, #245182 100%) 0 0 no-repeat padding-box;
+    box-shadow: inset 0 1px 3px #ffffff80;
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#sf2_download
+    .sf2_download_main
+    .sf2_download_main_content
+    .sf2_download_main_content_downloadBtn_wrapper
+    .sf2_download_main_content_downloadBtn:hover {
+    transform: scale(0.95);
+    filter: hue-rotate(30deg);
+}
+
+#sf2_download .sf2_download_system {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_downloadBtn {
+    margin-top: 57px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    width: 100%;
+    height: 70px;
+    background: transparent linear-gradient(180deg, #4a89b8 0%, #245182 100%) 0 0 no-repeat padding-box;
+    box-shadow: inset 0 1px 3px #ffffff80;
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_downloadBtn:hover {
+    transform: scale(0.95);
+    filter: hue-rotate(30deg);
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_char01 {
+    position: absolute;
+    bottom: 0;
+    max-width: 572px;
+    height: 815px;
+    width: 100%;
+    left: 0;
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_char02 {
+    position: absolute;
+    bottom: 0px;
+    max-width: 527px;
+    width: 100%;
+    height: 100%;
+    height: 815px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #fff;
+    margin-top: 50px;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_binder {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    max-width: 175px;
+    width: 100%;
+    height: 13px;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_content {
+    max-width: 650px;
+    font-family: 'Roboto';
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    margin-top: 10px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #eee;
+    margin-bottom: 30px;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 794px;
+    width: 100%;
+    height: 450px;
+    background-color: #000;
+    z-index: 0;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_youtube .sf2_download_system_youtube_playBtn {
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_youtube .sf2_download_system_youtube_playBtn:hover {
+    transform: scale(0.9);
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_classBtn {
+    margin-top: 64px;
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    background: transparent linear-gradient(180deg, #4a89b8 0%, #245182 100%) 0 0 no-repeat padding-box;
+    box-shadow: inset 0 1px 3px #ffffff80;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    z-index: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#sf2_download .sf2_download_system .sf2_download_system_classBtn:hover {
+    transform: scale(0.9);
+}
+
+#sf2_download .sf2_download_system .testWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1198px;
+    height: 400px;
+    background: #000;
+    backdrop-filter: blur(2px);
+    border: 1px solid #af8e3b;
+}
+
+#sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph .sf2_download_system_graph_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1134px;
+    width: 100%;
+    opacity: 1;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content
+    .sf2_download_system_graph_main_content:last-child {
+    margin-bottom: 0;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content
+    .sf2_download_system_graph_main_content_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 54px;
+    background: #404a49;
+    color: #eee;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content
+    .content01 {
+    max-width: 284px;
+    background: #2b4441;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content
+    .content02 {
+    max-width: 462px;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_content
+    .content03 {
+    max-width: 384px;
+    margin-right: 0;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_title
+    .sf2_download_system_graph_main_title_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 54px;
+    background: #252f2e;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_title
+    .title01 {
+    max-width: 284px;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_title
+    .title02 {
+    max-width: 462px;
+}
+
+#sf2_download
+    .sf2_download_system
+    .testWrapper
+    .sf2_download_system_graph
+    .sf2_download_system_graph_main
+    .sf2_download_system_graph_main_title
+    .title03 {
+    max-width: 384px;
+    margin-right: 0;
+}
+
+@media all and (max-width: 1920px) {
+    #sf2_download .sf2_download_main {
+        max-width: 1920px;
+        background-size: auto;
+    }
+
+    #sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_downloadBtn_wrapper {
+        margin-top: 0;
+    }
+
+    #sf2_download .sf2_download_system {
+        background-size: cover;
+    }
+}
+
+@media all and (max-width: 1629px) {
+    #sf2_download .sf2_download_system .sf2_download_system_char01 {
+        display: none;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_char02 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1251px) {
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph .sf2_download_system_graph_main {
+        max-width: 840px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    #sf2_download .sf2_download_main {
+        margin-top: 0;
+        background-repeat: no-repeat;
+    }
+
+    #sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_downloadBtn {
+        display: none;
+    }
+    .title-wrapper {
+        top: 90px;
+    }
+}
+
+@media all and (max-width: 925px) {
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph {
+        width: 700px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph .sf2_download_system_graph_main {
+        width: 640px;
+    }
+
+    #sf2_download
+        .sf2_download_system
+        .testWrapper
+        .sf2_download_system_graph
+        .sf2_download_system_graph_main
+        .sf2_download_system_graph_main_content
+        .sf2_download_system_graph_main_content_content {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 840px) {
+    #sf2_download .sf2_download_system .sf2_download_system_title {
+        max-width: 500px;
+        margin-bottom: 15px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_content {
+        max-width: 90%;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_youtube {
+        max-width: 500px;
+        width: 100%;
+        height: 282px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_youtube .sf2_download_system_youtube_playBtn {
+        scale: 80%;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph {
+        width: 600px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph .sf2_download_system_graph_main {
+        width: 550px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #sf2_download .sf2_download_main {
+        height: 500px;
+        background-size: cover;
+    }
+
+    #sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_logo {
+        width: 100%;
+        max-width: 372px;
+        height: 210px;
+        margin-top: 100px;
+        margin-bottom: 43px;
+    }
+
+    #sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_downloadBtn_wrapper {
+        flex-direction: column;
+    }
+
+    #sf2_download
+        .sf2_download_main
+        .sf2_download_main_content
+        .sf2_download_main_content_downloadBtn_wrapper
+        .sf2_download_main_content_downloadBtn {
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 625px) {
+    #sf2_download .sf2_download_system .testWrapper {
+        overflow-x: scroll;
+        display: block;
+        width: 450px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper::-webkit-scrollbar-track {
+        background: rgba(100, 100, 100, 0.2);
+        border-radius: 2px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper::-webkit-scrollbar-thumb {
+        background: rgba(100, 100, 100, 0.4);
+        border-radius: 2px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #sf2_download .sf2_download_system .sf2_download_system_title {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        max-width: 300px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_content {
+        max-width: 350px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper {
+        width: 350px;
+    }
+
+    #sf2_download .sf2_download_system .testWrapper .sf2_download_system_graph {
+        height: 343px;
+    }
+
+    #sf2_download
+        .sf2_download_system
+        .testWrapper
+        .sf2_download_system_graph
+        .sf2_download_system_graph_main
+        .sf2_download_system_graph_main_content
+        .sf2_download_system_graph_main_content_content {
+        height: 40px;
+    }
+
+    #sf2_download
+        .sf2_download_system
+        .testWrapper
+        .sf2_download_system_graph
+        .sf2_download_system_graph_main
+        .sf2_download_system_graph_main_title
+        .sf2_download_system_graph_main_title_content {
+        height: 40px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_classBtn {
+        max-width: 350px;
+        font-size: 22px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_downloadBtn {
+        max-width: 350px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_youtube {
+        max-width: 350px;
+        height: 196px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_youtube .sf2_download_system_youtube_playBtn {
+        scale: 70%;
+    }
+}
+
+@media all and (max-width: 420px) {
+    #sf2_download .sf2_download_main .sf2_download_main_content .sf2_download_main_content_logo {
+        width: 100%;
+        max-width: 282px;
+        height: 160px;
+        margin-top: 100px;
+        margin-bottom: 43px;
+    }
+    #sf2_download
+        .sf2_download_main
+        .sf2_download_main_content
+        .sf2_download_main_content_downloadBtn_wrapper
+        .sf2_download_main_content_downloadBtn {
+        max-width: 320px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_youtube {
+        max-width: 320px;
+        height: 180px;
+    }
+
+    #sf2_download .sf2_download_system .sf2_download_system_classBtn {
+        max-width: 320px;
+    }
+}
